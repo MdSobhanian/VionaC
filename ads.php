@@ -3,14 +3,13 @@
 /*-----------------------------------------------+
 | SNETWORKS PHP CLASSIFIEDS                      |
 +================================================+
-| Copyright © 2005 George Robert (SNETWORKS),       |
+| Copyright ï¿½ 2005 George Robert (SNETWORKS),       |
 | All rights reserved.                              |
 | E-mail: support@snetworks.biz                     |
 | Web: http://www.snetworksclassifieds.com          |
 |                                                |
 |                          //  Wed, Aug 03, 2005 |
 +-----------------------------------------------*/
-
 
 require_once("initvars.inc.php");
 require_once("config.inc.php");
