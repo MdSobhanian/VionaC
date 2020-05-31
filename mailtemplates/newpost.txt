@@ -1,0 +1,19 @@
+Hi there,
+
+Thank you for making your post ({@ADTITLE}) to {@SITENAME}.
+
+Please click the link below to verify your email address. Your post will start to show up only once your email address is verified.
+
+{@VERIFICATIONLINK}
+
+Your post will expire on {@EXPIRESON}, unless you have purchased any extended ad packages.
+
+Once your email is verified, you can see your post here:
+{@ADURL}
+
+If you want to edit/delete your post later, go here:
+{@EDITURL}
+
+
+Thank you,
+Webmaster, {@SITENAME}

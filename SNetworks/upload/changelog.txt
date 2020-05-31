@@ -1,0 +1,12 @@
+
+	SNETWORKS PHP CLASSIFIEDS
+	> BACKPAGE SUITE
+	>> www.snetworksclassifieds.com
+
+	v5.7.9------
+
+	*Fixed broken reset password link
+	*Fixed user active before activating their account
+	*Fixed security captcha issue with a new captcha.image.php file
+	*Fixed broken links in admin > add new user
+	*emptied log file in log folder

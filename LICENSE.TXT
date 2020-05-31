@@ -1,0 +1,67 @@
+By purchasing, installing or using SNetworks PHP Classifieds, you are agreeing to the following terms. DO NOT purchase, install or use the script, if any of these terms are not acceptable for you. If you have any questions, you may contact us at info@snetworks.biz.
+
+1. USAGE:
+
+i) A single domain license allows you to install SNetworks PHP Classifieds strictly onlyon one domain name. It is the regular encryted versoin of our script. When the licenses are generated then a license key and other encrypted codes are pasted in the script to protect from using the script in more than one domain that which you will provide upon purchase. This version does not include all the features that are listed in our featured page. You can compare the features in our comparision chart available in our license page. This have very less features then pro licenses. As it is encrypted therefore you won't be able to customize the site because modifying the ecrpyted codes will result crash of whole script. Editing any encrypted codes will crash your script where we won't provide any refund neither we are responsible. If you want to setup more than one websites using SNetworks PHP Classifieds, you should obtain additional licenses from www.snetworksclassifieds.com or upgrade your license. Please note that while using single domain license you won't be able to add any copyright texts or powered by text even with additionaly payments, either you have to upgrade or you get new other license. Additional licenses are available to buy anytime in our website. Please visit our email/contact us for more information.
+
+ii) A dual domain license allows you to install SNetworks PHP Classifieds under any two numbers of domain name only. It is a regular license as well. When the licenses are generated then a license key and other encrypted codes are pasted in the script which protects the script from removing copyright or powered by texts and disallow to run atonce in more than two domain names. Editing any encrypted codes will crash your script where we won't provide any refund neither we are responsible. If you want to remove the copyright/powered by texts or you want to make your own branding of your script then you must order Pro license and Powered By text removal authorization. Please contact/email us for more information.
+
+iv) A master source license allows you to install SNetworks PHP Classifieds under any numbers of domain name you want and also let's you do any kind of modification you want with the script. It is the Pro version of our script. As It gives you complete rights to do all types of customization wiith the script openly and legally. You can easily modify the script in your own way as the source codes are not encrypted and there is no chance of script to crash unlike regular licenses. You are not allowed to re-brand the script, for branding you must purchase Powered By Text Removal authorization additionally from our website. In this license, sctrictly you are not allowed to remove the powered by texts from the script. As you are getting the original source code of the classifieds script with no encryption at all. Please visit contact/email us for more information.
+
+v) A powered by text removal allows you to make your own branding in our SNetworks PHP Classifieds scripts. If you already own any of our license(s) then your purchase of this legal authorization letter will be eligible. This is completely additional. If you do not want our brand name and text link back to us to be appeared in the bottom of your classifieds site then you can buy this to remove it. This is a legal agreement for branding the script. Please visit our website or email us for more information.
+
+vi) A professional installation service is done by our technecians in you server in a good manner. This installation service offers you 80%-90% of money back guarantee. Let's say if you are not completely satisfied and our technicians are unable to completely install the classifieds script in your hosting server then the refund will be eligible, however it depends on the situation and attempts made by our techinicians. This is very effective to get the site up and running faster than usual. And this task is usually completely within few hours however you are requested to allow minimum of 24-48 hours after purchase.
+
+vii) An unofficial installation service is usually done by our third party trusted web technicians who provide installation for selected add ons modules only. The installation timeframe depends on the third party and usually it takes from 48-72 hours minimum and may take more longer. However, the approximate timeframe wil be provided to the buyer for their task to be completed. The complete payment of this installatoin services goes to third party developers and SNetworks hold no partial payments for this services.
+
+viii) A style customization job is done by our professional selected web designers according to your needs and directions. The usual customizations are done includes Fonts, Colours, Layout, Size, Tables, Buttons, Backgrounds, Headtexts etc. This service is available in dedicated way through phone or e-mail or live chat within approximate fixed time for each user. Partial payments guarantee is available in this service where depending on the situations and customer satisfaction SNetworks will provide 30%-40% refunds. Please note that SNetworks reserve all the rights over the decision for refund eligibility.
+
+ix) A dedicated support subscription let's you get response to your e-mails and tickets faster than usual. Once you subscribe to this product then you will have one dedicated e-mail address where you will be able to send e-mails and receive pretty faster. In short it let's you stand out of the crowd very easily.
+
+You should NOT remove, alter or obfuscate any instances of the script's name or copyright notices found in the administration area and PHP source files according to the license rights stated above. Anyway, you are allowed to remove the copyright notice from the end user side of the website (ie. the homepage etc.).
+
+2. CHANGE OF DOMAIN NAME: All regular script license(s) are granted for a particular domain name. If you move the script to a new domain, then you should inform SNetworks PHP Classifieds about the transfer for approval. Any such transfers without the approval of snetworksclassifieds.com will void your script license(s).
+
+3. TRANSFER OF LICENSE: If a website running SNetworks PHP Classifieds is to be transfered to another party, along with the script, then you should report the transfer to transfers@snetworks.biz prior to the transfer. SNetworks PHP Classifieds will have the rights to prevent you from transfering the script license and thus the script files to the new party, if the transfer is found to be unacceptable. If approved by SNetworks, the transfer of the website will also involve the transfer of your script license and you will no longer be eligible to use the license any further even if you own Pro license. Each license is eligible to own particulary by one person only. Additionally, any such transfers should retain the script's name and all the original copyright notices including those in the administration area as well as the source files and also contain an unaltered copy of script pack.
+
+4. REFUNDS: Payments made to www.SNetworksClassifieds.com are final and shall NOT be refunded under any circumstances. This terms applies to all types of license(s), add ons, legal items etc. payment. But if you order installations or any other customization services by our technicians then you may get refunds if only there is any failure where conditions are appliled and subject to approval only as SNetworks own complete rights for the decision over situations. If any chargebacks or other transaction issues occurs then your purchased license will be suspended temporarily untill the issue has been resolved by the buyer as soon as possible. Please note that there maybe billing settlement charges depending on the situation when occurs with the transactions made to SNetworks.
+
+5. COPYRIGHTS: SNetworks PHP Classifieds is copyright protected software act 1976. All rights on the script are reserved by SNetworks. You may not resell or redistribute the script unless you have the legal valid license to do so which is being authorised by the owner. Please note that we do not allow online website resellers and we do not have any other website currently than snetworksclassifieds.com for selling our script.
+
+6. DISCLAIMER: THE SOFTWARE IS PROVIDED ON AN "AS IS" BASIS. SNETWORKSCLASSIFIEDS.COM DISCLAIMS ALL WARRANTIES RELATING TO THE SOFTWARE, WHETHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. NEITHER CraigslistClone.info NOR ANYONE ELSE WHO HAS BEEN INVOLVED IN THE CREATION, PRODUCTION, OR DELIVERY OF THE SOFTWARE SHALL BE LIABLE FOR ANY INDIRECT, CONSEQUENTIAL, OR INCIDENTAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE, EVEN IF CraigslistClone.info HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR CLAIMS. THE PERSON USING THE SOFTWARE BEARS ALL RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE.
+
+7. Copyright Claims Pursuant to the Digital Millennium Copyright Act
+Pursuant to Title II of the Digital Millennium Copyright Act, all claims of copyright infringement for material that is believed to be residing on SNETWORKS's network or servers should be promptly sent in the form of written notice to the Designated Agent for DMCA Notices listed below:
+
+George Robert
+SNETWORKS
+4800 Great America Pkwy # 219
+Santa Clara CA 95054, United States.
+Email: info@snetworks.biz 
+Phone: +1-727 498-4877.
+FAX: +1-814 690-7044.
+
+To be considered effective, a notification of a claimed copyright infringement must be provided via regular fax to SNETWORKS and must include the information which are stated below:-
+
+i: An electronic signature of the copyright owner, or a person authorized to act on behalf of the owner, of an exclusive copyright that has allegedly been infringed.
+
+ii: Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works on that site.
+
+iii: Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit SNETWORKS to locate the material.
+
+iv: Information reasonably sufficient to permit SNETWORKS to contact the Complaining Party, such as an address, telephone number, and, if available, an electronic mail address at which the Complaining Party may be contacted.
+
+v: A statement that the Complaining Party has a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.
+
+vi: A statement that the information in the notification is accurate, and under penalty of perjury, that the Complaining Party is the owner, or is authorized to act on behalf of the owner, of an exclusive right that is allegedly infringed.
+
+Failure to submit copyright infringement notification as described herein will result in no legal notice or action on behalf of SNETWORKS.
+
+8. Misrepresentations: 
+- any person who knowingly materially misrepresents under this section
+
+1: that material or activity is infringing,
+
+OR
+
+2: that material or activity was removed or disabled by mistake or misidentification, shall be liable for any damages, including costs and attorney's fees, incurred by the alleged infringer, by any copyright owner or copyright owner's authorized license, who is injured by such misrepresentation, as the result of SNETWORKS relaying upon such misrepresentations in removing or ceasing to disable access to it.

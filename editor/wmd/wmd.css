@@ -1,0 +1,144 @@
+body 
+{ 
+	background-color: White
+}
+
+.wmd-panel
+{
+}
+
+#wmd-editor
+{
+	background-color: white;
+}
+
+#wmd-button-bar 
+{
+	width: 100%;
+	background-color: white; 
+}
+
+#wmd-input 
+{ 
+	height: 200px;
+	width: 100%;
+}
+
+#wmd-preview 
+{ 
+	background-color: lightyellow;
+	padding: 0px 10px;
+	border: 1px solid khaki;
+	margin-top: 10px;
+	min-height: 40px;
+}
+
+#wmd-output 
+{ 
+	background-color: Pink;
+}
+
+#wmd-button-row 
+{
+	position: relative; 
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	padding: 0px;  
+	height: 20px;
+}
+
+.wmd-spacer
+{
+	width: 1px; 
+	height: 20px; 
+	margin-left: 10px;
+	
+	position: absolute;
+	background-color: Silver;
+	display: inline-block; 
+	list-style: none;
+}
+
+.wmd-button
+{
+	width: 20px; 
+	height: 20px; 
+	margin-left: 0px;
+	margin-right: 0px;
+	
+	position: absolute;
+	background-image: url(images/wmd-buttons.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	display: inline-block; 
+	list-style: none;
+}
+
+.wmd-button a
+{
+	width: 50px; 
+	height: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+	position: absolute;
+	display: inline-block; 
+	text-decoration: none;
+}
+
+
+/* sprite button slicing style information */
+#wmd-button-bar #wmd-bold-button    {left: 0px;   background-position: 0px 0;}
+#wmd-button-bar #wmd-italic-button  {left: 25px;  background-position: -20px 0;}
+#wmd-button-bar #wmd-spacer1        {left: 50px;}
+#wmd-button-bar #wmd-link-button    {left: 75px;  background-position: -40px 0;}
+#wmd-button-bar #wmd-quote-button   {left: 100px;  background-position: -60px 0;}
+#wmd-button-bar #wmd-code-button    {left: 125px;  background-position: -80px 0;}
+
+/* hidden */
+#wmd-button-bar #wmd-image-button   {left: 150px;  background-position: -100px 0; display: none;}
+
+/* shifted left */
+#wmd-button-bar #wmd-spacer2        {left: 150px;}
+#wmd-button-bar #wmd-olist-button   {left: 175px;  background-position: -100px 0;}
+#wmd-button-bar #wmd-ulist-button   {left: 200px; background-position: -120px 0;}
+#wmd-button-bar #wmd-heading-button {left: 225px; background-position: -140px 0;}
+#wmd-button-bar #wmd-hr-button      {left: 250px; background-position: -160px 0;}
+#wmd-button-bar #wmd-spacer3        {left: 275px;}
+#wmd-button-bar #wmd-undo-button    {left: 300px; background-position: -180px 0;}
+#wmd-button-bar #wmd-redo-button    {left: 325px; background-position: -200px 0;}
+
+#wmd-button-bar #wmd-help-button    {
+    width: 50px;
+    right: 0px; 
+    background-position: -260px 0;
+}
+
+.wmd-prompt-background
+{
+	background-color: Black;
+}
+
+.wmd-prompt-dialog
+{
+	border: 1px solid #999999;
+	background-color: #F5F5F5;
+	font-weight: bold;
+}
+
+.wmd-prompt-dialog > div {
+	font-family: arial, helvetica, sans-serif;
+}
+
+
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999999;
+	color: black;
+}
+
+.wmd-prompt-dialog > form > input[type="button"]{
+	border: 1px solid #888888;
+	font-weight: bold;
+}

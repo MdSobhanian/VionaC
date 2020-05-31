@@ -1,0 +1,70 @@
+/*--------------------------------------------------+
+| SNETWORKS PHP CLASSIFIEDS							|
++===================================================+
+| PRODUCT: Backpage Suite                           |
+| Official Installation Guide	                    |
++---------------------------------------------------+
+| Copyright � 2005 George Robert (SNETWORKS),       |
+| All rights reserved.                              |
+| E-mail: support@snetworks.biz                     |
+| Web: http://www.snetworksclassifieds.com          |
++-----------------------------------------*---------*/
+
+
+SETUP DATABASE
+---------------------------------------------------------------
+1. Create MySQL Database and MySQL Database User & Password
+2. Using PHPMyAdmin, IMPORT the file in folder (./sql/backpage.sql)
+
+TRANSFER FILES
+---------------------------------------------------------------
+3. Upload all the files and folders of (./upload/) folder where you want to install the script.
+
+EDIT FILES
+---------------------------------------------------------------
+4. Open dbconnect.inc.php file and Enter your MySQL Database and User information.
+5. Open ./accounts/acc_config.php and change to your site email, cookie domain (same like example)
+6. Get your contact form captcha keys from http://www.google.com/recaptcha/ and then open the file form_config.php and paste your public key and secret key. Also type in your website name and your email address where you want to recieve your contact form submission data.
+
+CONFIGURE SCRIPT
+---------------------------------------------------------------
+7. Go to classified's admin panel at http://yoursite.com/admin/ and login with username "admin" and password "admin"
+8. After login, Click "General Config" under SETTINGS and input your site e-mail, website URL, paypal email and rest of the details.
+9. Now go to your website at http://yoursite.com and the backpage classifieds suite should display properly.
+
+
+ADDITIONAL CHANGES
+---------------------------------------------------------------
+[-] To place your Google Analytics tracking code, open the file analyticstracking.php and paste your Google Analytics tracking code.
+[-] To change your logo, replace logo.png and logo_transparentbg.png to your own inside (./images) folder.
+[-] If your site is not being used for United States only then open file ./allcities.php and change "United States" to anything you require in your site.
+[-] You can increase the picture upload's file size from config.inc.php -> $pic_maxsize = 300;
+[-] You can change your "Help" page with your additional information by editing the file help.php
+[-] To customize your terms & privacy statements, login to admin panel, click "Privacy/Terms Manager" under SETTINGS and make your necessarry changes.
+
+
+TROUBLESHOOTS
+---------------------------------------------------------------
+[*] Having trouble logging into your Admin Panel:
+	-> default login credentials are username=admin, password=admin
+	-> try usign different web browser like internet explorer, firefox etc.
+	-> try opening config.inc.php file and change $strict_login = FALSE; to $strict_login = TRUE;
+	
+[*] Broken images and/or no styles are displaying on the home page:
+	-> Make sure you've typed in your website full URL including http:// in your Admin Panel > General Config > Script URL.
+	-> Clear your browser's cache, exist browser and start again.
+	-> If can't be changed from Admin Panel, then open your database via PHPMyAdmin and go to the table clf_site_control and edit the value for script_url to your full website address.
+	
+[*] Cannot sign in to an account after registering:
+	-> make sure that the user acocunt is active (Admin Panel > Users Manager)
+	-> open (./accounts/acc_config.php) file and make sure your cookie domain has "." before your domain name. For example ".myclassifieds.com" or ".classifieds.mysite.com"
+	-> open (./accounts/acc_config.php) file and check if cookie expiry time is too short or not
+	
+[*] Cannot change logo from Admin Panel:	
+	-> this feature is not available for Backpage Suite version of SNetworks Classifieds. It is applicable for Craigslist Suite and Original Suite only.
+	
+[*] Broken links when clicking categories/subcategories, regions/cities:
+	-> make sure .htaccess file exist within the root directory of the script (sometimes in windows, this file is hidden and can be missed out)
+	-> if the script is installed in a sub-directory for example www.yoursite.com/classifieds/ then open .htaccess file and before all the lines that has index.php, before add your 	directory name. For example change index.php?**** to classifieds/index.php?****
+	-> check if your hosting apache/php has mod_rewrite module enabled. Without this being enabled, Search Engine Friendly URLs will not function.
+	-> you can temporarily disable Search Engine Friendly URLs for the URLs to work by logging in to your admin panel then click "Feature Config" and click "Turn Off" for "Search Engine Friendly URL".

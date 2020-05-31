@@ -1,0 +1,83 @@
+RewriteEngine On                                                                                                                              
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+# Show ad
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/posts/([0-9]+)([-_][^/]*)?/([0-9]+)([-_][^/]*)?/([0-9]+)([-_][^/]*)?\.html		index.php?view=showad&adid=$7&cityid=$1 [QSA]
+                                                                                                                                              
+# Ads                                                                                                                                         
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/posts/([0-9]+)([-_][^/]*)?/([0-9]+)([-_][^/]*)?/page([0-9]*)\.html			index.php?view=ads&catid=$3&subcatid=$5&cityid=$1&page=$7 [QSA]
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/posts/([0-9]+)([-_][^/]*)?/([0-9]+)([-_][^/]*)?					index.php?view=ads&catid=$3&subcatid=$5&cityid=$1 [QSA]
+                                                                                                                                              
+## Begin Version 5.6.2 - Pagination bug fix + Uniform page links ##
+
+# Ads by cat                                                                                                                                  
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/posts/([0-9]+)([-_][^/]*)?/page([0-9]*)\.html            index.php?view=ads&catid=$3&subcatid=0&&cityid=$1&page=$5 [L,QSA]
+
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/posts/([0-9]+)([-_][^/]*)?								index.php?view=ads&catid=$3&cityid=$1 [QSA]
+
+## End Version 5.6.2 - Pagination bug fix + Uniform page links ##
+                                                                                                                               
+# Show event                                                                                                                                  
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/events(/(([0-9]+)-([0-9]+)-([0-9]+)))?/([0-9]+)([-_][^/]*)?\.html			index.php?view=showevent&date=$4&adid=$8&cityid=$1 [QSA]
+                                                                                                                                              
+# Events on date                                                                                                                              
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/events/(([0-9]+)-([0-9]+)-([0-9]+))/page([0-9]*)\.html				index.php?view=events&date=$3&cityid=$1&page=$7 [QSA]
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/events/(([0-9]+)-([0-9]+)-([0-9]+))							index.php?view=events&date=$3&cityid=$1 [QSA]
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/events										index.php?view=events&cityid=$1 [QSA]
+                                                                                                                                              
+# Show image                                                                                                                                  
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/images/([^/]+)/([0-9]+)([-_][^/]*)?\.html						index.php?view=showimg&posterenc=$3&imgid=$4&cityid=$1 [QSA]
+                                                                                                                                             
+# Images by user, paged                                                                                                                       
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/images/([^/]+)/page([0-9]+)\.html							index.php?view=imgs&posterenc=$3&cityid=$1&page=$4 [QSA]
+                                                                                                                                              
+# Top Images, paged                                                                                                                           
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/images/page([0-9]+)\.html								index.php?view=imgs&cityid=$1&page=$3 [QSA]
+                                                                                                                                              
+# Images by user                                                                                                                              
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/images/([^/]+)									index.php?view=imgs&posterenc=$3&cityid=$1 [QSA]
+                                                                                                                                              
+# Top Images                                                                                                                                  
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/images										index.php?view=imgs&cityid=$1 [QSA]
+                                                                                                                                              
+# Quick ad/event/image                                                                                                                        
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/showpost/([0-9]+)([-_][^/]*)?\.html							index.php?view=showad&adid=$3&cityid=$1 [QSA]
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/showevent/([0-9]+)([-_][^/]*)?\.html							index.php?view=showevent&adid=$3&cityid=$1 [QSA]
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?/showimage/([0-9]+)([-_][^/]*)?\.html							index.php?view=showimg&imgid=$3&cityid=$1 [QSA]
+                                                                                                                                              
+# City/Region                                                                                                                                 
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?											index.php?view=main&cityid=$1 [QSA]
+RewriteRule ^([-]?[0-9]+)([-_][^/]*)?											index.php?view=main&cityid=$1 [QSA]
+
+## Begin Version 5.0 ##
+
+# RSS URLs
+RewriteRule ^feed/posts                           													rss.php?view=ads&cityid=0 [QSA]
+RewriteRule ^feed/events                           													rss.php?view=events&cityid=0 [QSA]
+RewriteRule ^feed/([-]?[0-9]+)([-_][^/]*)?/posts/([0-9]+)([-_][^/]*)?/([0-9]+)([-_][^/]*)?			rss.php?view=ads&catid=$3&subcatid=$5&cityid=$1 [QSA]
+RewriteRule ^feed/([-]?[0-9]+)([-_][^/]*)?/posts/([0-9]+)([-_][^/]*)?								rss.php?view=ads&catid=$3&cityid=$1 [QSA]
+RewriteRule ^feed/([-]?[0-9]+)([-_][^/]*)?/posts													rss.php?view=ads&cityid=$1 [QSA]
+RewriteRule ^feed/([-]?[0-9]+)([-_][^/]*)?/events/(([0-9]+)-([0-9]+)-([0-9]+))						rss.php?view=events&date=$3&cityid=$1 [QSA]
+RewriteRule ^feed/([-]?[0-9]+)([-_][^/]*)?/events													rss.php?view=events&cityid=$1 [QSA]
+
+## End Version 5.0 ##
+
+## BEGIN account mod
+
+RewriteRule ^myaccount$  /index.php?view=userpanel
+RewriteRule ^myaccount&action=(.*)$  /index.php?view=userpanel&action=$1
+RewriteRule ^signin$  /index.php?view=login
+RewriteRule ^signup$  /index.php?view=signup
+
+## END account mod
+
+## BEGIN backpage customization
+RewriteRule ^help$  /index.php?view=help
+RewriteRule ^retrievelink$  /index.php?view=verifyresend
+RewriteRule ^contact-us$  /index.php?view=contact
+RewriteRule ^privacy-policy$  /index.php?view=page&pagename=privacy
+RewriteRule ^terms$  /index.php?view=page&pagename=terms
+RewriteRule ^AllCities$  /allcities.php
+RewriteRule ^AllCitiesReset$  /allcities.php?cookie=reset

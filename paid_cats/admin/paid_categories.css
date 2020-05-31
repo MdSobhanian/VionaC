@@ -1,0 +1,45 @@
+.fee_details {
+	border-color: #EAEAEA;
+	border-width: 0px;
+	border-style: solid;
+}
+
+.fee_details legend {
+	font-weight: bold;
+	font-size: 10px;
+	padding: 0px 5px;
+}
+
+#fee_row_template {
+	display: none;
+}
+
+.fee_row {
+	clear: both;
+	padding: 2px 0px;
+	margin-bottom: 2px;
+}
+
+.fee_row * {
+	float: left;
+}
+
+.fee_add_remove {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.fee_loc {
+	display: block;
+	width: 110px;
+	margin-right: 15px;
+}
+
+.fee_new {
+	color: grey;
+}
+
+.fee {
+	margin-left: 3px;
+	margin-right: 5px;
+}

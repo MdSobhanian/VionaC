@@ -1,0 +1,8 @@
+Hello,
+
+Please find below the links to activate/view/edit your ads. 
+
+{@LINKS}
+
+Thank you,
+Webmaster, {@SITENAME}

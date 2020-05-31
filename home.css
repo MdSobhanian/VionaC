@@ -1,0 +1,694 @@
+b {font-weight:bold;}
+
+body {
+  background-color:#fff;
+  font-family:arial,sans-serif;
+  font-size:12.5px;
+  text-align:center;
+}
+#mainWrapper {
+  width:100%;
+  margin:0 auto;
+  text-align:left;
+}
+
+h2#unitedStates {display:none;}
+
+.column {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    background:#ddd;
+    padding:10px;
+}
+  @media screen and (max-width: 500px) {
+    .column {
+      -webkit-column-count: 2; /* Chrome, Safari, Opera */
+      -moz-column-count: 2; /* Firefox */
+      column-count: 2;
+    }
+  }
+
+  #postAnAd {
+    float:right;
+    padding-bottom:1em;
+    font-size:18px;
+    font-weight:bold;
+  }
+#footer {
+  clear:both;
+  margin-top:1em;
+  padding-top:1em;
+}
+#navLinkList {
+  margin:1em 0;
+  padding:0;
+  font-size:12px;
+  text-align:center;
+  list-style-type:none;
+}
+#navLinkList li {
+  margin:0;
+  padding:0 0.5em;
+  display:inline;
+  border-right:1px solid #000;
+}
+#navLinkList li:last-child {
+  border-right:none;
+}
+#navLinkList a {
+  color:#000;
+}
+#geoListings {
+  position:relative;
+  clear:both;
+  margin:0;
+}
+
+sup {line-height:1;vertical-align:baseline;}
+
+a {
+  color:#000;
+}
+  a:hover {
+    color:#000;
+    text-decoration:none;
+  }
+h3 {
+  margin:0;
+  color:#000;
+  font-size:14px;
+}
+  h3 a {
+    color:#000;
+    text-decoration:none;
+  }
+    h3 a:hover {
+      color:#666;
+    }
+ul {
+  margin:0;
+  padding:0;
+}
+  li {
+    padding-left:0.5em;
+    line-height:1.2;
+  }
+.geoUnit {
+  overflow:hidden;
+  margin-bottom:0.75em;
+}
+  .geoUnit {
+    -webkit-column-break-inside:avoid;
+    -moz-column-break-inside:avoid;
+    -o-column-break-inside:avoid;
+    -ms-column-break-inside:avoid;
+    column-break-inside:avoid;
+    page-break-inside: avoid;
+  }
+  .geoUnit li {text-transform:capitalize;}
+
+.h1link {
+  float: none !important;
+  color: #000 !important;
+  cursor: default;
+}
+
+body#home[class] h2#unitedStates {display:block!important;}
+
+body#home[class] {
+  background-color:#fff;
+  font-family:'trebuchet ms',verdana,arial,helvetica,helv,swiss,sans,sans-serif;
+  font-size:14px;
+  text-align:center;
+}
+#home[class] #mainWrapper {
+  max-width:980px;
+  margin:0 auto 12px;
+  text-align:left;
+}
+#home[class] #header {
+  margin-bottom:1em;
+  padding-bottom:0.5em;
+  border-bottom:2px solid #3563a8;
+  font-weight:bold;
+}
+#home[class] h1 {
+  height:40px;
+  margin:0 0 0.5em;
+  padding:0;
+  background:url(/images/logo.gif?cb=1) left center no-repeat;
+  text-indent:-9999px;
+}
+#home[class] #postAnAd {
+  float:right;
+  padding-bottom:1em;
+  font-size:18px;
+}
+#home[class] #postAnAd a {
+  color:#3563a8;
+}
+#home[class] #footer {
+  clear:both;
+  margin-top:1em;
+  padding-top:1em;
+}
+#home[class] #footer div {
+  padding-bottom:1em;
+  border-bottom:2px solid #3563a8;
+  color:#3563a8;
+  font-size:11px;
+  font-weight:bold;
+  text-align:center;
+}
+#home[class] #navLinkList {
+  margin:1em 0 0;
+  padding:0;
+  font-size:13px;
+  text-align:center;
+  list-style-type:none;
+}
+#home[class] #navLinkList li {
+    margin:0;
+    padding:0 0.5em;
+    display:inline;
+    border-right:1px solid #000;
+}
+#home[class] #navLinkList li:last-child {
+    border-right:none;
+}
+#home[class] #navLinkList a {
+    color:#3563a8;
+}
+
+#home[class] .newIcon {color:#c00;}
+#home[class] sup {line-height:1;vertical-align:baseline;}
+
+#home[class] a {
+    color:#b59a28;
+}
+#home[class] a:hover {
+    color:#b59a28;
+    text-decoration:none;
+}
+#home[class] h2 {
+    margin:0;
+    font-size:24px;
+}
+#home[class] h3 {
+    margin:0;
+    font-size:16px;
+}
+  #home[class] h3 a {
+      color:#000;
+      text-decoration:none;
+  }
+  #home[class] h3 a:hover {
+      color:#666;
+  }
+#home[class] ul {
+    margin:0;
+    padding:0;
+}
+#home[class] li {
+    padding-left:0.5em;
+}
+#home[class] .geoUnit {
+    overflow:hidden;
+    margin-bottom:0.75em;
+    max-width:150px;
+}
+
+#home[class] .h1link {
+    float: none !important;
+    color: #000 !important;
+    cursor: default;
+}
+
+#home[class] #geoListings:before,
+#home[class] #geoListings:after {
+    content:"";
+    display:table;
+}
+#home[class] #geoListings:after {
+    clear:both;
+}
+#home[class] #geoListings {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+#home[class] .column {
+    width: 50%;
+    float:left;
+    background:#fff!important;
+    box-sizing: border-box;
+    zoom:1;
+    overflow: hidden;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    padding:0;
+}
+
+#home[class] .geoBlock {
+    padding: 2px 7px;
+}
+
+#home[class] .geoBlock .geoUnit {
+    min-width: 100%;
+    -webkit-column-break-inside:avoid;
+    -moz-column-break-inside:avoid;
+    -o-column-break-inside:avoid;
+    -ms-column-break-inside:avoid;
+    column-break-inside:avoid;
+    page-break-inside: avoid;
+}
+
+#home[class] .geoBlock h2 {
+    max-width:100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #405E8F;
+    padding: 4px;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#home[class] .geoBlock .inner.showing {
+    display: block;
+}
+
+#home[class] .geoBlock .inner {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    overflow: hidden;
+}
+
+/* media stlyes for varying widths */
+@media (max-width: 860px) {
+    #home[class] .geoBlock .inner {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    #home[class] .column {
+        width: 100%;
+        margin-left: 0;
+    }
+    #home[class] #geoListings .united-states {
+        position: static;
+        margin-left: 0;
+    }
+    #home[class] .geoBlock .inner {
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+    }
+  }
+
+/*
+postfastr specific homepage styles
+xxx: need to consolidate and refactor;
+*/
+
+body#home.postfastr h2#unitedStates {display:block!important;}
+
+body#home.postfastr {
+  background-color:#fff;
+  font-family:'trebuchet ms',verdana,arial,helvetica,helv,swiss,sans,sans-serif;
+  font-size:14px;
+  text-align:center;
+}
+#home.postfastr #mainWrapper {
+  max-width:980px;
+  margin:0 auto 12px;
+  text-align:left;
+}
+#home.postfastr #header {
+  margin-bottom:1em;
+  padding-bottom:0.5em;
+  border-bottom:2px solid #3563a8;
+  font-weight:bold;
+}
+#home.postfastr h1 {
+  height:40px;
+  margin:0 0 0.5em;
+  padding:0;
+  background:url(/images/logo.gif?cb=1) left center no-repeat;
+  text-indent:-9999px;
+}
+#home.postfastr #postAnAd {
+  float:right;
+  padding-bottom:1em;
+  font-size:18px;
+}
+#home.postfastr #postAnAd a {
+  color:#3563a8;
+}
+#home.postfastr #footer {
+  clear:both;
+  margin-top:1em;
+  padding-top:1em;
+}
+#home.postfastr #footer div {
+  padding-bottom:1em;
+  border-bottom:2px solid #3563a8;
+  color:#3563a8;
+  font-size:11px;
+  font-weight:bold;
+  text-align:center;
+}
+#home.postfastr #navLinkList {
+  margin:1em 0 0;
+  padding:0;
+  font-size:13px;
+  text-align:center;
+  list-style-type:none;
+}
+#home.postfastr #navLinkList li {
+    margin:0;
+    padding:0 0.5em;
+    display:inline;
+    border-right:1px solid #000;
+}
+#home.postfastr #navLinkList li:last-child {
+    border-right:none;
+}
+#home.postfastr #navLinkList a {
+    color:#3563a8;
+}
+
+#home.postfastr .newIcon {color:#c00;}
+#home.postfastr sup {line-height:1;vertical-align:baseline;}
+
+#home.postfastr a {
+    color:#b59a28;
+}
+#home.postfastr a:hover {
+    color:#b59a28;
+    text-decoration:none;
+}
+#home.postfastr h2 {
+    margin:0;
+    font-size:24px;
+}
+#home.postfastr .inner h3 {
+    margin:0;
+    font-size:16px;
+}
+  #home.postfastr h3 a {
+      color:#000;
+      text-decoration:none;
+  }
+  #home.postfastr h3 a:hover {
+      color:#666;
+  }
+#home.postfastr ul {
+    margin:0;
+    padding:0;
+}
+#home.postfastr li {
+    padding-left:0.5em;
+}
+#home.postfastr .geoUnit {
+    overflow:hidden;
+    margin-bottom:0.75em;
+    max-width:150px;
+}
+
+#home.postfastr .h1link {
+    float: none !important;
+    color: #000 !important;
+    cursor: default;
+}
+
+#home.postfastr #geoListings:before,
+#home.postfastr #geoListings:after {
+    content:"";
+    display:table;
+}
+#home.postfastr #geoListings:after {
+    clear:both;
+}
+#home.postfastr #geoListings {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+#home.postfastr .column {
+    width: 50%;
+    float:left;
+    background:#fff!important;
+    box-sizing: border-box;
+    zoom:1;
+    overflow: hidden;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    padding:0;
+}
+
+#home.postfastr .geoBlock {
+    padding: 2px 7px;
+}
+
+#home.postfastr .geoBlock .geoUnit {
+    min-width: 100%;
+    -webkit-column-break-inside:avoid;
+    -moz-column-break-inside:avoid;
+    -o-column-break-inside:avoid;
+    -ms-column-break-inside:avoid;
+    column-break-inside:avoid;
+    page-break-inside: avoid;
+}
+
+#home.postfastr .geoBlock h2 {
+    max-width:100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #999;
+    padding: 4px;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#home.postfastr .geoBlock .inner.showing {
+    display: block;
+}
+
+#home.postfastr .geoBlock .inner {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    overflow: hidden;
+}
+
+/* media stlyes for varying widths */
+@media (max-width: 860px) {
+    #home.postfastr .geoBlock .inner {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    #home.postfastr .column {
+        width: 100%;
+        margin-left: 0;
+    }
+    #home.postfastr #geoListings .united-states {
+        position: static;
+        margin-left: 0;
+    }
+    #home.postfastr .geoBlock .inner {
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+    }
+  }
+
+@media (max-width: 480px) {
+    #home.postfastr .column {
+        width: 100%;
+    }
+    #home.postfastr #geoListings .united-states {
+        position: static;
+        margin-left: 0;
+    }
+    #home.postfastr .geoBlock .inner {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        display:none;
+        padding: 8px 4px;
+    }
+    #home.postfastr .geoBlock h2 {
+        margin-top:2px;
+        margin-bottom:2px;
+    }
+    #home.postfastr #geoListings {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-color: #EAE9FE;
+    }
+}
+
+@media (max-width: 310px) {
+    #home.postfastr .column {
+        width: 100%;
+    }
+    #home.postfastr .geoBlock .inner {
+        -webkit-column-count: auto; /* Chrome, Safari, Opera */
+        -moz-column-count: auto; /* Firefox */
+        column-count: auto;
+        padding: 8px 4px;
+        display: none;
+    }
+    #home.postfastr #geoListings .united-states {
+        position: static;
+        margin-left: 0;
+    }
+    #home.postfastr .geoBlock h2 {
+        margin-top:2px;
+        margin-bottom:2px;
+    }
+    #home.postfastr #geoListings {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-color: #EAE9FE;
+    }
+}
+
+/* extra special styles for Internet Explorer */
+#home.postfastr .ie9 .geoBlock .inner ul li,
+#home.postfastr .ie8 .geoBlock .inner ul li,
+#home.postfastr .ie7 .geoBlock .inner ul li {
+  padding-left: 1%;
+  width: 30%;
+  float:left;
+  box-sizing: border-box;
+}
+#home.postfastr .ie9 .column,
+#home.postfastr .ie8 .column,
+#home.postfastr .ie7 .column {
+  width: 49.5%;
+}
+#home.postfastr .ie9 #geoListings {
+    min-width: 400px;
+}
+#home.postfastr .ie8 #geoListings,
+#home.postfastr .ie7 #geoListings {
+    min-width: 800px;
+}
+
+/* end postfastr styles. */
+
+@media screen and (max-width: 500px) {
+  #home[class] #navLinkList li {
+    font-size: 15px;
+    line-height: 25px;
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 8px;
+  }
+
+  #home[class] .geoUnit h3 {
+    padding-bottom: 2px;
+  }
+
+  #home[class] .geoUnit li {
+    font-size: 15px;
+    padding-top: 7px;
+  }
+
+  #home[class] .geoUnit {
+    padding-bottom: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+    #home[class] .column {
+        width: 100%;
+    }
+    #home[class] #geoListings .united-states {
+        position: static;
+        margin-left: 0;
+    }
+    #home[class] .geoBlock .inner {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        display:none;
+        padding: 8px 4px;
+    }
+    #home[class] .geoBlock h2 {
+        margin-top:2px;
+        margin-bottom:2px;
+    }
+    #home[class] #geoListings {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-color: #EAE9FE;
+    }
+}
+
+@media (max-width: 310px) {
+    #home[class] .column {
+        width: 100%;
+    }
+    #home[class] .geoBlock .inner {
+        -webkit-column-count: auto; /* Chrome, Safari, Opera */
+        -moz-column-count: auto; /* Firefox */
+        column-count: auto;
+        padding: 8px 4px;
+        display: none;
+    }
+    #home[class] #geoListings .united-states {
+        position: static;
+        margin-left: 0;
+    }
+    #home[class] .geoBlock h2 {
+        margin-top:2px;
+        margin-bottom:2px;
+    }
+    #home[class] #geoListings {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-color: #EAE9FE;
+    }
+}
+
+/* extra special styles for Internet Explorer */
+#home[class] .ie9 .geoBlock .inner ul li,
+#home[class] .ie8 .geoBlock .inner ul li,
+#home[class] .ie7 .geoBlock .inner ul li {
+  padding-left: 1%;
+  width: 30%;
+  float:left;
+  box-sizing: border-box;
+}
+#home[class] .ie9 .column,
+#home[class] .ie8 .column,
+#home[class] .ie7 .column {
+  width: 49.5%;
+}
+#home[class] .ie9 #geoListings {
+    min-width: 400px;
+}
+#home[class] .ie8 #geoListings,
+#home[class] .ie7 #geoListings {
+    min-width: 800px;
+}
